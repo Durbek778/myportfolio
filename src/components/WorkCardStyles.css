@@ -1,0 +1,17 @@
+.project-card {
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: all 0.5s;
+}
+
+.project-card:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: background-color 0.5s ease-out 100ms;
+  transform: translateY(-4%);
+}
+.project-card img {
+  border-radius: 1rem;
+}
+.project-card .pro-btns .btn {
+  margin: auto;
+}

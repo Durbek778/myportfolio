@@ -1,6 +1,6 @@
 import "./HeroImgStyles.css";
 import React from "react";
-import IntroImg from "../assets/intro-bg.jpg";
+import IntroImg from "../assets/back3.webp";
 
 const HeroImg = () => {
   return (
@@ -9,7 +9,9 @@ const HeroImg = () => {
         <img className="into-img" src={IntroImg} alt="IntroImg" />
       </div>
       <div className="content">
-        <p>Hi, I`m a bek</p>
+        <p>Hi, I`m Ergashbaev Durbek </p>
+        <h1>Front-End Developer</h1>
+        <div></div>
       </div>
     </div>
   );
