@@ -2,13 +2,14 @@ import "./FooterStyles.css";
 
 import React from "react";
 
+import { RiKakaoTalkFill } from "react-icons/ri";
+
 import {
   FaFacebook,
   FaHome,
-  FaLinkedin,
   FaMailBulk,
   FaPhone,
-  FaTwitter,
+  FaGithub,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -19,8 +20,7 @@ const Footer = () => {
           <div className="location">
             <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             <div>
-              <p> bla bla rayon</p>
-              <p> korea koreche</p>
+              <p> 경기도 성남시 수정구</p>
             </div>
           </div>
 
@@ -30,7 +30,7 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              24656810
+              +821024656810
             </h4>
           </div>
           <div className="email">
@@ -39,28 +39,35 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              xxxx@gmail.com
+              dergasbaev@gmail.com
             </h4>
           </div>
-        </div>
-        <div className="right">
-          <h4> About the company</h4>
-          <p>this is me durber perfecet developer</p>
           <div className="social">
-            <FaFacebook
-              size={30}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
-            <FaTwitter
-              size={30}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
+            <a
+              className=""
+              target="_blank"
+              href="https://www.facebook.com/durbek.ergashbaev.589"
+            >
+              <FaFacebook
+                size={30}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </a>
+            <a className="" target="_blank" href="https://github.com/Durbek778">
+              <FaGithub
+                size={30}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </a>
+            <a className="" target="_blank" href="https://github.com/Durbek778">
+              <RiKakaoTalkFill
+                size={30}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </a>
           </div>
         </div>
+        <div className="right"></div>
       </div>
     </div>
   );

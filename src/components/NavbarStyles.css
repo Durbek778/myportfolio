@@ -9,6 +9,7 @@
   z-index: 10;
   color: black;
 }
+
 .header-bg {
   background-color: rgba(0, 0, 0, 0.6);
   transition: 0.5s;
@@ -37,8 +38,13 @@
 .nav-menu li a {
   font-size: 1.2rem;
   font-weight: 500;
+  padding: 10px;
+  transition: all 0.3s ease-out 100ms;
 }
-
+.nav-menu li a:hover {
+  border-bottom: 2px solid #ffffff;
+  transform: translateY(2px);
+}
 .header-bg .nav-menu li a {
   color: white;
 }

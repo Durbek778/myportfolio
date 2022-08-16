@@ -21,14 +21,14 @@ const Navbar = () => {
   return (
     <div className={color ? "header-bg" : "header"}>
       <Link to="/">
-        <h1>Bek </h1>
+        <h1>벡 </h1>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
           <Link to="/ "> Home</Link>
         </li>
         <li>
-          <Link to="/project">Projecet</Link>
+          <Link to="/project">Projects</Link>
         </li>
         <li>
           <Link to="/about "> About</Link>

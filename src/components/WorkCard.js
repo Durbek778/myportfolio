@@ -10,9 +10,9 @@ const WorkCard = (props) => {
       <div className="pro-detailes">
         <p> {props.text}</p>
         <div className="pro-btns">
-          <NavLink to={props.view} className="btn">
+          <a className="btn" target="_blank" href={props.view}>
             View
-          </NavLink>
+          </a>
         </div>
       </div>
     </div>
