@@ -1,13 +1,24 @@
+.formWrapper {
+  background: rgba(0, 0, 0, 0.5)
+    url("https://images.pexels.com/photos/210646/pexels-photo-210646.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load");
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 8rem 2rem;
+  margin: auto;
+  max-width: 600px;
+}
 label {
   color: #fff;
   margin-bottom: 0.5rem;
 }
-form {
-  display: flex;
-  flex-direction: column;
-  padding: 4rem 1rem;
-  margin: auto;
-  max-width: 600px;
+textarea {
+  color: black;
 }
 
 form input,
@@ -15,7 +26,8 @@ form textarea {
   margin-bottom: 1rem;
   padding: 10px 18px;
   font-size: 1.2rem;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.1);
-  color: #f4f4f4;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  color: black;
 }

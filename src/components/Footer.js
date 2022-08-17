@@ -10,6 +10,7 @@ import {
   FaMailBulk,
   FaPhone,
   FaGithub,
+  FaLinkedin,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -59,13 +60,28 @@ const Footer = () => {
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
             </a>
-            <a className="" target="_blank" href="https://github.com/Durbek778">
+            <a
+              className=""
+              target="_blank"
+              href="https://www.kakaocorp.com/page/service/service/KakaoTalk?lang=ENG&tab=all"
+            >
               <RiKakaoTalkFill
                 size={30}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
             </a>
+            <a
+              className=""
+              target="_blank"
+              href="https://www.linkedin.com/in/%D0%B4%D1%83%D1%80%D0%B1%D0%B5%D0%BA-%D1%8D%D1%80%D0%B3%D0%B0%D1%88%D0%B1%D0%B0%D0%B5%D0%B2-671b87248/"
+            >
+              <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </a>
           </div>
+          <p className="p2"> &copy;2022 Durbek.e</p>
         </div>
         <div className="right"></div>
       </div>
